@@ -1,0 +1,10 @@
+
+{
+  "name": "aircraft-classification",
+  "private": true,
+  "scripts": {
+    "build:frontend": "npm install --prefix se_fullstack/frontend && npm run build --prefix se_fullstack/frontend",
+    "build": "npm run build:frontend",
+    "start": "node se_fullstack/backend/server.js"
+  }
+}

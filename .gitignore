@@ -1,0 +1,26 @@
+# Python ignores
+__pycache__/
+*.py[cod]
+*.pyo
+*.pkl
+*.h5
+*.hdf5
+
+# OS generated
+.DS_Store
+
+# Environment
+.env
+.venv
+venv/
+ENV/
+env/
+
+# Logs
+*.log
+
+# Jupyter/IPython
+.ipynb_checkpoints
+
+# VS Code
+.vscode/
